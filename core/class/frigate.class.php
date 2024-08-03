@@ -1295,10 +1295,10 @@ class frigate extends eqLogic
   public static function createCamerasCmds($eqlogicId)
   {
 
-    $cmd = self::createCmd($eqlogicId, "Créer un évenement via API", "other", "", "action_make_api_event", "", 1, null, 0, "action");
+    $cmd = self::createCmd($eqlogicId, "Créer un évènement via API", "other", "", "action_make_api_event", "", 1, null, 0, "action");
     $cmd->save();
 
-    $cmd = self::createCmd($eqlogicId, "Créer une évenement", "other", "", "action_make_event", "", 1, null, 0, "action");
+    $cmd = self::createCmd($eqlogicId, "Créer un évènement", "other", "", "action_make_event", "", 1, null, 0, "action");
     $cmd->save();
   }
   public static function createMQTTcmds($eqlogicId)
